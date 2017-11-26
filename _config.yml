@@ -1,5 +1,29 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+title: Distributed Systems Course
+show_downloads: false
+google_analytics: UA-110186108-1
 theme: jekyll-theme-hacker
+description              : "Self-study Materials"
+url                      : "https://andresnamm.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/ds" # the subpath of your site, e.g. "/blog"
+
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: tutorials
+    values:
+      layout: default
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      incmath: true
+# Collections
+collections:
+  tutorials:
+    output: true
+    permalink: /:collection/:path/
