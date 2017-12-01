@@ -6,7 +6,7 @@ title: Indirext communication
 
 # References
 
-1. [Publish subsrcribe patters](https://docs.oracle.com/cd/B10501_01/appdev.920/a96590/adg15pub.htm9
+1. [Publish subsrcribe patters](https://docs.oracle.com/cd/B10501_01/appdev.920/a96590/adg15pub.htm)
 2. [Indirect communication slides ](https://www.kth.se/social/upload/504cf76ef27654461c000000/indirect%20communication.pdf)
 3. [Indirect communication slides](https://www.ida.liu.se/~TDDD25/lectures/lect3.frm.pdf)
 
