@@ -4,8 +4,8 @@ title: P2P2P2P2P2P2P2P2
 ---
 
 
-1. https://www.youtube.com/watch?v=5O9rTDElD_Y
-2. http://www.cs.dartmouth.edu/~campbell/cs60/p2p-examples.pdf
+1. [General idea of P2P](https://www.youtube.com/watch?v=5O9rTDElD_Y)
+2. [Examples of P2P applications](http://www.cs.dartmouth.edu/~campbell/cs60/p2p-examples.pdf)
 3. [How piracy can work](https://www.youtube.com/watch?v=AWFLGFV4R4c)
-4. [Dirty ](http://code.activestate.com/recipes/578591-primitive-peer-to-peer-chat/)
-5. http://cs.berry.edu/~nhamid/p2p/framework-python.html
+4. [A very simple p2p python example](https://www.webcodegeeks.com/python/python-network-programming-tutorial/)
+5. [More complicated p2p python example](http://cs.berry.edu/~nhamid/p2p/framework-python.html)
