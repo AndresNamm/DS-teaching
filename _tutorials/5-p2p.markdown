@@ -9,3 +9,4 @@ title: P2P2P2P2P2P2P2P2
 3. [How piracy can work](https://www.youtube.com/watch?v=AWFLGFV4R4c)
 4. [A very simple p2p python example](https://www.webcodegeeks.com/python/python-network-programming-tutorial/)
 5. [More complicated p2p python example](http://cs.berry.edu/~nhamid/p2p/framework-python.html)
+6. [Magnet Links](https://lifehacker.com/5875899/what-are-magnet-links-and-how-do-i-use-them-to-download-torrents)
