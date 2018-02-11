@@ -1,5 +1,6 @@
 title: Distributed Systems
 show_downloads: false
+
 google_analytics: UA-110186108-1
 theme: jekyll-theme-hacker
 description              : "Self-study Materials"
@@ -10,10 +11,10 @@ baseurl                  : "/DS-teaching" # the subpath of your site, e.g. "/blo
 
 # Defaults
 defaults:
-  # _posts
+  # _tutorials
   - scope:
       path: ""
-      type: tutorials
+      type: ds
     values:
       layout: default
       author_profile: true
@@ -22,8 +23,41 @@ defaults:
       share: true
       related: true
       incmath: true
+  # _sysadm
+  - scope:
+      path: ""
+      type: sysadm
+    values:
+      layout: default
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      incmath: true
+  - scope:
+    # _datasec
+      path: ""
+      type: datasec
+    values:
+      layout: default
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      incmath: true
+
+
+
 # Collections
 collections:
-  tutorials:
+  ds:
+    output: true
+    permalink: /:collection/:path/
+  sysadm:
+    output: true
+    permalink: /:collection/:path/
+  datasec:
     output: true
     permalink: /:collection/:path/
