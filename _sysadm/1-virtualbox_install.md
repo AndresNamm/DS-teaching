@@ -1,27 +1,11 @@
 ---
 layout: default
-title: Bootstrapping Debian
+title: Virtualbox installation issues
 ---
 
+# Linux
+##  Virtualbox Crashes when you start a created VM
 
-
-
-# Supporting materials for tutorial 2 for system administration [course](https://courses.cs.ut.ee/2018/sa/spring/Main/Bootstrapping?action=edit)
-+ [Clear guide to what links in linux are,](http://www.penguintutor.com/linux/links-reference-guide)[links1,](https://www.thegeekstuff.com/2010/10/linux-ln-command-examples) [Links2,](https://www.linux.com/learn/intro-to-linux/2017/6/understanding-linux-links)[practical tutorial on links ](https://www.cyberciti.biz/tips/understanding-unixlinux-symbolic-soft-and-hard-links.html)
-    + [inode](https://en.wikipedia.org/wiki/Inode)[2](https://www.cyberciti.biz/tips/understanding-unixlinux-filesystem-inodes.html)
-    + [mount -- bind](https://unix.stackexchange.com/questions/198590/what-is-a-bind-mount)
-    >A bind mount is an alternate view of a directory tree. Classically, mounting creates a view of a storage device as a directory tree. A bind mount instead takes an existing directory tree and replicates it under a different point. The directories and files in the bind mount are the same as the original. Any modification on one side is immediately reflected on the other side, since the two views show the same data.
-For example, after issuing the Linux command
-mount --bind /some/where /else/where
-the directories /some/where and /else/where have the same content.
-Unlike a hard link or symbolic link, a bind mount doesn't affect what is stored on the filesystem. It's a property of the live system.
-
-+ Important directories in the file system
-    + proc - https://www.linux.com/news/discover-possibilities-proc-directory
-    + dev -  http://www.linux-databook.info/?page_id=5108
-    + sys https://askubuntu.com/questions/720471/whats-the-sys-directory-for
-
-# Errors you might encounter
-
-+ >The guest is trying to switch to the PAE mode which is currently disabled by default in VirtualBox. PAE support can be enabled using the VM settings (System/Processor).   - enable it in VirtualBox
-+ Cant write to the filesystem after removing the iso fail from drive -> /etc/fstab configured wrong. This is the likeliest reason for other errooors as well.
+Maybe you kernel version is too new > 4.10
++ [virtualbox crash on kernel](https://askubuntu.com/questions/994315/virtualbox-crash-on-kernel-4-13-0-26)
++ [rc error](https://askubuntu.com/questions/900794/virtualbox-rtr3initex-failed-with-rc-1912-rc-1912)

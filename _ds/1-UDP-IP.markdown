@@ -8,7 +8,6 @@ title: UDP, TCP & IP - Self Study Videos
 
 + [UDP vs TCP](https://www.youtube.com/watch?v=Vdc8TCESIg8)
 
-
 # Quick recaps on IP ADDRESSES
 
 This part is not strictly related to the next week seminar. However knowing it definitely helps grasp UDP and other topics in this course better.
