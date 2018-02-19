@@ -10,6 +10,8 @@ permalink: /clmanagement/kernel
 + [BOOT PROCESS OVERVIEW LINUX](https://www.thegeekstuff.com/2011/02/linux-boot-process/)
     + [MBR VS GPT](https://www.howtogeek.com/193669/whats-the-difference-between-gpt-and-mbr-when-partitioning-a-drive/)
     + [BIOS VS UEFI](https://www.howtogeek.com/56958/)
+    + [Where can Grub be installed on the hardrive](https://unix.stackexchange.com/questions/306409/difference-between-installing-grub-on-mbr-sector-or-first-sector-on-boot-partiti)
+    + [System and boot partition](https://en.wikipedia.org/wiki/System_partition_and_boot_partition)
 
 ## GRUB specifcis
 
