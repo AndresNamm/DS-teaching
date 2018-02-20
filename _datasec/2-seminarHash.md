@@ -10,7 +10,9 @@ modified: 2017-08-01T15:54:02-04:00
 + [Hash functions meaning ](https://www.youtube.com/watch?v=--tnZMuoK3E)
 + [Hash functions meaning 2](https://www.youtube.com/watch?v=a5F16sM75uY)
 + [hashs functions properties](https://denimgroup.com/resources/blog/2007/11/properties-of-1/)
+
 ## Practical example why hash is necessary
+
 + [Java code to perform md5 hashing - you have to remove the salt](http://www.codexpedia.com/java/java-md5-hash-example-one-way-hash/)
 + [Hash function database for md5](https://hashkiller.co.uk/md5-decrypter.aspx)
 + hash of word "password"
@@ -24,7 +26,7 @@ modified: 2017-08-01T15:54:02-04:00
 
 + linux lcrypt example
 + crypt function first parameter -  password chosen
-+ crypt function second parameter - $<key>$salt
++ crypt function second parameter - $key$salt
 + In this case
     + password - password1
     + key - 1 (means md5)
