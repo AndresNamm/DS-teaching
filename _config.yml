@@ -47,7 +47,18 @@ defaults:
       share: true
       related: true
       incmath: true
-
+  # _trivia
+  - scope:
+      path: ""
+      type: trivia
+    values:
+      layout: default
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      incmath: true
 
 
 # Collections
@@ -59,5 +70,8 @@ collections:
     output: true
     permalink: /:collection/:path/
   datasec:
+    output: true
+    permalink: /:collection/:path/
+  trivia:
     output: true
     permalink: /:collection/:path/
