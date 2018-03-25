@@ -26,7 +26,10 @@ The tutorials here support
 + [REVERSE DNS video ](https://www.youtube.com/watch?v=R6wxLjKkXCI)
 + [GENERAL TUTORIAL](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)
 + [DNS RECURSION VS DNS FORWARDING](https://serverfault.com/questions/661821/what-s-the-difference-between-recursion-and-forwarding-in-bind)
-
++ [DNS FUNCTIONING AND SETUP](https://www.wired.com/2010/02/set_up_a_dns_name_server/)
++ If you want to add yourself you own domain with a namserver you need to register with a registered provider both the
+    + domain
+    + responsibel nameserve to which the responsible nameserver directs the requests to
 
 ## Technical practical components
 
